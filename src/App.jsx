@@ -1,11 +1,12 @@
 // TODO (paso 4): importa el componente Conversor desde './components/Conversor'
 import './App.css'
+import SelectorMoneda from './components/SelectorMoneda'
 
 function App() {
   return (
     <main>
       <h1>Conversor de monedas y criptos</h1>
-      {/* TODO (paso 3): prueba aquí <SelectorMoneda /> */}
+      <SelectorMoneda etiqueta={"Moneda "} valor={"EUR"} onCambiar={()=>{}}/>
       {/* TODO (paso 4): sustitúyelo por <Conversor /> */}
     </main>
   )

@@ -24,7 +24,7 @@ const resultado = cantidad /  tasas[origen].tasa * tasas[destino].tasa;
     <div className="conversor">
       {/* TODO: input numérico para la cantidad (recuerda convertir a número) */}
       <label className="campo">Cantidad: 
-        <input type="number" value={cantidad} onChange={(e) => setCantidad(Number(e.target.value))} />
+        <input type="number" value={cantidad} onChange={(e) => setCantidad(e.target.value)} />
       </label>
       {/* TODO: dos SelectorMoneda: "De" (origen) y "A" (destino) */}
       <SelectorMoneda etiqueta="De" valor={origen} onCambiar={setOrigen} />

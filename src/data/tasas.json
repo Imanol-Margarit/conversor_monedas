@@ -4,5 +4,6 @@
   "GBP": { "nombre": "Libra esterlina", "simbolo": "£", "tasa": 0.85 },
   "JPY": { "nombre": "Yen japonés", "simbolo": "¥", "tasa": 162 },
   "BTC": { "nombre": "Bitcoin", "simbolo": "₿", "tasa": 0.000011 },
-  "ETH": { "nombre": "Ethereum", "simbolo": "Ξ", "tasa": 0.00031 }
+  "ETH": { "nombre": "Ethereum", "simbolo": "Ξ", "tasa": 0.00031 },
+  "MXN": { "nombre": "Peso mexicano", "simbolo": "$", "tasa": 19.5 }
 }
